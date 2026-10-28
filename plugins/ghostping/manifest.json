@@ -1,0 +1,23 @@
+{
+	"format": 1,
+	"id": "dev.21aansell-sketch.ghostping",
+	"name": "do /ghostping",
+	"description": "your a prick for using this mate",
+	"author": "21aansell-sketch",
+	"icon": "ChatXIcon",
+	"version": "1.0.0",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		},
+		"dev.cocobo1.command-lib": {
+			"version": ">=1 <2"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}

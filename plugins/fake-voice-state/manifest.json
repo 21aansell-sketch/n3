@@ -1,0 +1,23 @@
+{
+	"format": 1,
+	"id": "dev.21aansell-sketch.fake-voice-state",
+	"name": "Fake Voice State",
+	"description": "Look muted or deafened to everyone in a call while you can still hear and talk. Use /fakemute and /fakedeafen.",
+	"author": "21aansell-sketch",
+	"icon": "MicrophoneSlashIcon",
+	"version": "1.0.0",
+	"dependencies": {
+		"valenced.api": {
+			"version": ">=1 <2"
+		},
+		"discord": {
+			"version": "*"
+		},
+		"dev.cocobo1.command-lib": {
+			"version": ">=1 <2"
+		}
+	},
+	"dist": {
+		"script": "index.js"
+	}
+}
