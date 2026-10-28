@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "name": "Horrible Plugins",
+  "description": "Valenced ports of the horrible-kettu-plugins collection.",
+  "plugins": {
+    "dev.21aansell-sketch.fake-voice-state": {
+      "name": "Fake Voice State",
+      "description": "Look muted or deafened to everyone in a call while you can still hear and talk. Use /fakemute and /fakedeafen.",
+      "author": "21aansell-sketch",
+      "icon": "MicrophoneSlashIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://21aansell-sketch.github.io/n3/pool/dev.21aansell-sketch.fake-voice-state@1.0.0.zip",
+          "sha256": "e25632e88b7094aa62d394992125ed9a40cb03a57dfd346f80fa576326b339ba",
+          "size": 1741,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "dev.cocobo1.command-lib": {
+              "version": ">=1 <2"
+            }
+          }
+        }
+      }
+    },
+    "dev.21aansell-sketch.ghostping": {
+      "name": "do /ghostping",
+      "description": "your a prick for using this mate",
+      "author": "21aansell-sketch",
+      "icon": "ChatXIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://21aansell-sketch.github.io/n3/pool/dev.21aansell-sketch.ghostping@1.0.0.zip",
+          "sha256": "19b8324d63223847df206f596b6eeac4e2d4a6cb0671c82b55b24c402e6d4ca1",
+          "size": 1873,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "dev.cocobo1.command-lib": {
+              "version": ">=1 <2"
+            }
+          }
+        }
+      }
+    }
+  }
+}
